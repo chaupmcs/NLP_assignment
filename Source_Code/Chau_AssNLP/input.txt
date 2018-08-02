@@ -1,0 +1,14 @@
+Sinh viên nào học môn Xử lý ngôn ngữ tự nhiên ?
+Hãy cho biết sinh viên có mã số MT12010 học môn nào?
+Môn Xử lý ngôn ngữ tự nhiên học ở phòng nào, ngày nào, học mấy tiết ?
+Hãy cho biết sinh viên có mã số MT9999999999 học môn nào?
+Sinh viên nào có mã số MT12001 và học ngày t2 ?
+Sinh viên nào có mã số MT12001 và học ngày t7 ?
+Hãy cho biết những sinh viên học môn Xử lý ngôn ngữ tự nhiên là sinh viên nào, mã số mấy ?
+Hãy cho biết sinh viên có mã số MT12010 học môn nào, ngày nào, mấy tiết ?
+Hãy cho biết sinh viên có mã số MT1201000 học môn nào, ngày nào, mấy tiết ?
+hãy cho biết sinh viên Phạm Minh Châu K13KHMT có mã số nào ?
+hãy cho biết sinh viên Trần Anh Dũng có mã số nào ?
+Sinh viên nào có mã số MT12003 ? 
+sinh viên có mã số MT12003 học tiết bắt đầu nào ?
+sinh viên có mã số MT12003 học tiết bắt đầu là tiết mấy ?

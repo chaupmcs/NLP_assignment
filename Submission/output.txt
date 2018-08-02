@@ -1,0 +1,249 @@
+***************************
+Full name: Chau Pham Minh
+Student ID: 51300366
+***************************
+========= processing the input 1... =========
+The input is : Sinh viên nào học môn Xử lý ngôn ngữ tự nhiên ?
+---------------------
+WHQUERY : sinh viên nào
+V : học 
+SUBJECT : môn xử lý ngôn ngữ tự nhiên 
+QUESTION_MARK : ?
+---------------------
+Condition_fields: {môn=xử lý ngôn ngữ tự nhiên}
+Query_fields: [sinh viên]
+---------------------
+The output: 
+[Phạm Văn Hai, Nguyễn Thị Mai, Nguyễn Thị Trang, Trần Quốc Việt, Đoàn Minh Thịnh, Nguyễn Hạnh Phúc]
+============== end the input 1 ==============
+
+========= processing the input 2... =========
+The input is : Hãy cho biết sinh viên có mã số MT12010 học môn nào?
+---------------------
+GIVE_QUES : hãy cho biết
+STUDENT : sinh viên
+HAVE : có 
+STUDENT_ID : mã số mt12010 
+V : học 
+WHQUERY : môn nào
+QUESTION_MARK : ?
+---------------------
+Condition_fields: {mã số=mt12010}
+Query_fields: [môn]
+---------------------
+The output: 
+[xử lý ngôn ngữ tự nhiên]
+============== end the input 2 ==============
+
+========= processing the input 3... =========
+The input is : Môn Xử lý ngôn ngữ tự nhiên học ở phòng nào, ngày nào, học mấy tiết ?
+---------------------
+SUBJECT : môn xử lý ngôn ngữ tự nhiên 
+V : học 
+IN_LOC : ở 
+WHQUERY : phòng nào
+WHQUERY : ngày nào
+V : học 
+WHQUERY : mấy tiết
+QUESTION_MARK : ?
+---------------------
+Condition_fields: {môn=xử lý ngôn ngữ tự nhiên}
+Query_fields: [phòng, ngày, tiết]
+---------------------
+The output: 
+[205/B10  T2  3]
+============== end the input 3 ==============
+
+========= processing the input 4... =========
+The input is : Hãy cho biết sinh viên có mã số MT9999999999 học môn nào?
+---------------------
+GIVE_QUES : hãy cho biết
+STUDENT : sinh viên
+HAVE : có 
+CONDITION_NOT_FOUND : mã số 
+OTHER_WORDS : mt9999999999 
+V : học 
+WHQUERY : môn nào
+QUESTION_MARK : ?
+---------------------
+CONDITIONS are not satisfied !
+NO RESULT !
+============== end the input 4 ==============
+
+========= processing the input 5... =========
+The input is : Sinh viên nào có mã số MT12001 và học ngày t2 ?
+---------------------
+WHQUERY : sinh viên nào
+HAVE : có 
+STUDENT_ID : mã số mt12001 
+OTHER_WORDS : và 
+V : học 
+DATE : ngày t2 
+QUESTION_MARK : ?
+---------------------
+Condition_fields: {ngày=t2, mã số=mt12001}
+Query_fields: [sinh viên]
+---------------------
+The output: 
+[Phạm Văn Hai]
+============== end the input 5 ==============
+
+========= processing the input 6... =========
+The input is : Sinh viên nào có mã số MT12001 và học ngày t7 ?
+---------------------
+WHQUERY : sinh viên nào
+HAVE : có 
+STUDENT_ID : mã số mt12001 
+OTHER_WORDS : và 
+V : học 
+CONDITION_NOT_FOUND : ngày 
+OTHER_WORDS : t7 
+QUESTION_MARK : ?
+---------------------
+CONDITIONS are not satisfied !
+NO RESULT !
+============== end the input 6 ==============
+
+========= processing the input 7... =========
+The input is : Hãy cho biết những sinh viên học môn Xử lý ngôn ngữ tự nhiên là sinh viên nào, mã số mấy ?
+---------------------
+GIVE_QUES : hãy cho biết
+OTHER_WORDS : những 
+STUDENT : sinh viên
+V : học 
+SUBJECT : môn xử lý ngôn ngữ tự nhiên 
+OTHER_WORDS : là 
+WHQUERY : sinh viên nào
+WHQUERY : mã số mấy
+QUESTION_MARK : ?
+---------------------
+Condition_fields: {môn=xử lý ngôn ngữ tự nhiên}
+Query_fields: [sinh viên, mã số]
+---------------------
+The output: 
+[Phạm Văn Hai  MT12001, Nguyễn Thị Mai  MT12003, Nguyễn Thị Trang  MT12004, Trần Quốc Việt  MT12007, Đoàn Minh Thịnh  MT12008, Nguyễn Hạnh Phúc  MT12010]
+============== end the input 7 ==============
+
+========= processing the input 8... =========
+The input is : Hãy cho biết sinh viên có mã số MT12010 học môn nào, ngày nào, mấy tiết ?
+---------------------
+GIVE_QUES : hãy cho biết
+STUDENT : sinh viên
+HAVE : có 
+STUDENT_ID : mã số mt12010 
+V : học 
+WHQUERY : môn nào
+WHQUERY : ngày nào
+WHQUERY : mấy tiết
+QUESTION_MARK : ?
+---------------------
+Condition_fields: {mã số=mt12010}
+Query_fields: [môn, ngày, tiết]
+---------------------
+The output: 
+[xử lý ngôn ngữ tự nhiên  T2  3]
+============== end the input 8 ==============
+
+========= processing the input 9... =========
+The input is : Hãy cho biết sinh viên có mã số MT1201000 học môn nào, ngày nào, mấy tiết ?
+---------------------
+GIVE_QUES : hãy cho biết
+STUDENT : sinh viên
+HAVE : có 
+CONDITION_NOT_FOUND : mã số 
+OTHER_WORDS : mt1201000 
+V : học 
+WHQUERY : môn nào
+WHQUERY : ngày nào
+WHQUERY : mấy tiết
+QUESTION_MARK : ?
+---------------------
+CONDITIONS are not satisfied !
+NO RESULT !
+============== end the input 9 ==============
+
+========= processing the input 10... =========
+The input is : hãy cho biết sinh viên Phạm Minh Châu K13KHMT có mã số nào ?
+---------------------
+GIVE_QUES : hãy cho biết
+CONDITION_NOT_FOUND : sinh viên p
+OTHER_WORDS : hạm 
+OTHER_WORDS : minh 
+OTHER_WORDS : châu 
+OTHER_WORDS : k13khmt 
+HAVE : có 
+WHQUERY : mã số nào
+QUESTION_MARK : ?
+---------------------
+CONDITIONS are not satisfied !
+NO RESULT !
+============== end the input 10 ==============
+
+========= processing the input 11... =========
+The input is : hãy cho biết sinh viên Trần Anh Dũng có mã số nào ?
+---------------------
+GIVE_QUES : hãy cho biết
+NAME : sinh viên trần anh dũng 
+HAVE : có 
+WHQUERY : mã số nào
+QUESTION_MARK : ?
+---------------------
+Condition_fields: {sinh viên=trần anh dũng}
+Query_fields: [mã số]
+---------------------
+The output: 
+[MT12002]
+============== end the input 11 ==============
+
+========= processing the input 12... =========
+The input is : Sinh viên nào có mã số MT12003 ? 
+---------------------
+WHQUERY : sinh viên nào
+HAVE : có 
+STUDENT_ID : mã số mt12003 
+OTHER_WORDS : ? 
+---------------------
+Condition_fields: {mã số=mt12003}
+Query_fields: [sinh viên]
+---------------------
+The output: 
+[Nguyễn Thị Mai]
+============== end the input 12 ==============
+
+========= processing the input 13... =========
+The input is : sinh viên có mã số MT12003 học tiết bắt đầu nào ?
+---------------------
+STUDENT : sinh viên
+HAVE : có 
+STUDENT_ID : mã số mt12003 
+V : học 
+WHQUERY_BEGIN_CLASS : tiết bắt đầu nào 
+QUESTION_MARK : ?
+---------------------
+Condition_fields: {mã số=mt12003}
+Query_fields: [tiết bắt đầu]
+---------------------
+The output: 
+[7]
+============== end the input 13 ==============
+
+========= processing the input 14... =========
+The input is : sinh viên có mã số MT12003 học tiết bắt đầu là tiết mấy ?
+---------------------
+STUDENT : sinh viên
+HAVE : có 
+STUDENT_ID : mã số mt12003 
+V : học 
+BEGIN_CLASS : tiết bắt đầu
+OTHER_WORDS : là 
+WHQUERY_BEGIN_CLASS : tiết mấy 
+QUESTION_MARK : ?
+---------------------
+Condition_fields: {mã số=mt12003}
+Query_fields: [tiết bắt đầu]
+---------------------
+The output: 
+[7]
+============== end the input 14 ==============
+
+============================== END THE OUTPUT ==============================
